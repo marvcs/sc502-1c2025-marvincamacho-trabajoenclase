@@ -1,8 +1,8 @@
 <?php
 $host = "localhost";
 $dbname = "todo_app";
-$user= "dbuser";
-$password = "mysqlpass";
+$user= "root";
+$password = "1234";
 try{
 
     $pdo = new PDO("mysql:host=$host;dbname=$dbname",$user,$password);
